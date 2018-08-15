@@ -3,6 +3,7 @@
 ![ ](./docs/individualImage%20(2).png)
 ![ ](./docs/individualImage%20(4).png)
 ![ ](./docs/individualImage.png)
+
 Prerequisits:
  - Installed Tensorflow and Object Detection API
  - Having set up Google Cloud ML Engine 
@@ -62,7 +63,7 @@ To do the training on cloud, following structure is suggested for the storage bu
 ```
 your_bucket
 	+data
-    		-train.record
+    	    -train.record
             -test.record
             -labelmap.pbtxt
             -model.ckpt.data
